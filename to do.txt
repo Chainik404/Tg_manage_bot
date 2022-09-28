@@ -1,0 +1,53 @@
+1.status like admin, user, coach 
+2.discription of user and coach 
+3.chose for coach his ocupation ---- done
+4.phone number - take number from tg avtomaticly
+5.add refresh button------ done
+6.create a settings with all structures
+7.make a usual menu 
+8.create sceduale
+
+.........
+
+---------------------------------_____________________________________________________________________
+mongo
+
+collection - users
+ -> user1 1,1,1,1,1,1,1,1 { schedule {}asdasd asd { sposts {}as asd asd} {}{}{}}
+ -> user2 1,1,1,1,1,1,1,1 { schedule {}asdasd asd { sposts {}as asd asd} {}{}{}}
+
+ SportType {Baskbet, Vleyybal ,,}
+ 
+ User (player, coach)
+ User-> Schedule ( date, 0:30 (time), userId, Duration (20-30-40) minutes (int)
+
+ 1. Coach -> Training -> Date, Time, PeriodicType (?),  - Duration (minutes), Capacity - QTY of users/people. TRAINING COLLECTION
+                                   
+PeriodicType = 0, Daily Workday(1), Daily every day(2), Weekly on Tuesday-3, Every week day (Mon-Fri)-4
+----------------------------
+
+-> See My Week
+[ Mon 10-Jan ] - #1 10-00 Footbal (5/10),   12-00 Baskbet (2/20), 
+[ Mon 11-Jan ] - #1 10-00 Footbal (0/10),   12-00 Baskbet (2/20), 
+[ Mon 12-Jan ] - #1 10-00 Footbal (0/10),   12-00 Baskbet (2/20), 
+[ Mon 13-Jan ] - #1 10-00 Footbal (0/10),   12-00 Baskbet (2/20), 
+-------------------------------------------------------------------
+-> See my Month
+-----------------------------------------------------
+User -> find Training -> type -> Footbal
+----------------------------------------
+---------- COACH IVAN MASEPA [ SHOW ONLY THIS COACH ] ---------
+[Coach #1] - [ Mon, 10 Jan] -> 10-00 -> [REGISTER]
+[Coach #1] - [ Tue, 11 Jan] -> 12-00 -> [REGISTER]
+---------- COACH KOS BOOL  [ SHOW ONLY THIS COACH ] ---------
+[IVAN1] - [ Mon, 10 Jan] -> 10-00
+[Coach #1] - [ Mon, 10 Jan] -> 10-00
+[Coach #1] - [ Mon, 10 Jan] -> 10-00
+[Coach #1] - [ Mon, 10 Jan] -> 10-00
+[PREV WEEK] ---  [NEXT WEEK]----------
+
+-------------------------------------------
+NEW TRAINING 
+ [Date ] ???
+ ______________________________________________________________________________________
+ coach1 - 
